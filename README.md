@@ -8,6 +8,7 @@
 - web3JS https://github.com/ethereum/web3.js/
 
 **NodeJS**
+
 A basic NodeJS server file is included in the main directory /CryptoPage/server.js
 This server is for testing web functionality only.
 In the future this will be re-done to utilize SSL as well as session cookies
@@ -18,6 +19,7 @@ To run the server use the commandline:
 Note that this server runs on port 8000
 
 **Notes**
+
 Certain files are still in the blocking/testing stage, these files include
 
 - Index.html
