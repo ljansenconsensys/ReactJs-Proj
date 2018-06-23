@@ -1,0 +1,83 @@
+html, body {
+	height: 100%;
+}
+
+#header {
+	font-size: 1.225rem;
+}
+
+#body {
+	font-size: 1.1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding: 1rem;
+	padding-bottom: 1.6rem;
+	padding-top: .4rem;
+}
+
+#footer {
+	font-size: 1.1rem;
+	min-height: 6.5rem;
+}
+
+@media screen and (max-width: 70em) {
+	#header {
+		font-size: 2.225rem;
+	}
+	
+	#body {
+		font-size: 2.1rem;
+	}
+	#footer {
+		font-size: 2.1rem;
+	}
+}
+
+#logo {
+	min-width: 30rem;
+}
+
+#logo img {
+	display: block;
+	margin: auto;
+}
+
+#nav {
+	min-width: 20rem;
+	min-height: 7rem;
+}
+
+#content {
+	padding-bottom: 40px;
+	padding-top: 15px;
+}
+
+
+.cryptoBox {
+	width: 45vh;
+	max-width: 90%;
+	height: 45vh;
+	max-height: 90%;
+	padding:10px;
+	margin: 10px;
+	text-align: center;
+	font-size: 2.5vh;
+	overflow: hidden;
+}
+
+.cryptoBox img {
+	height: 25vh;
+	width: 25vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+}
+
+.cryptoBox button {
+	width: 20vh;
+	max-width: 20rem;
+	font-size: 2.5vh;
+	padding: .3rem;
+	margin: .2rem auto;
+}
