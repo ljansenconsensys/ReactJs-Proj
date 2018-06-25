@@ -36,7 +36,7 @@
 </head>
 <body>
 
-	<div class="container-fluid">
+	<div class="container-fluid d-flex flex-column">
 		<div id="header" class="row justify-content-between">
 			<div id="logo" class="col-lg-6 justify-content-center">
 				<a href="index.html"><img src="img/consensyslogo.png"></a>
@@ -52,7 +52,7 @@
 
 		</div>
 
-		<div id="body" class="d-flex flex-column align-self-center">
+		<div id="body" class="d-flex flex-column align-self-stretch">
 			<div id="content" class="align-self-center">
 				Current Popular Crypto Currencies
 			</div>
@@ -61,21 +61,28 @@
 				<!--
 				Templay for CryptoBox type. Used to display the crypto. Requires a Name, Image, and URL
 				Plan to Eventually Replace All Boxes With ReactJS to Build OTF
+				Ether, BitCoin, DashCoin, LiteCoin, DogeCoin, Ripple, Tether, TRON
 				-->
 				<div class="cryptoBox card mx-3 justify-content-md-center">
 					Best Crypto Monies Here.
 					<img src="img/ether.png" class="img-fluid">
 					Check out your Ether wallet here!
-					<button type="button" class="btn btn-outline-primary" onClick="location.href='ethereumwallet.html'">Ethereum</button>
+					<button type="button" class="btn btn-outline-primary" onClick="location.href='ether.html'">Ethereum</button>
 				</div>
 
 				<div class="cryptoBox card mx-3 justify-content-md-center">
 					Second Best Crypto Monies Here.
 					<img src="img/bitcoin.png" class="img-fluid">
 					Visit the Bitcoin Website!
-					<button type="button" class="btn btn-outline-primary" onClick="location.href='ethereumwallet.html'">Ethereum</button>
+					<button type="button" class="btn btn-outline-primary" onClick="location.href='https://bitcoin.org/'">BitCoin</button>
 				</div>
 
+				<div class="cryptoBox card mx-3 justify-content-md-center">
+					Other Crypto Monies Here.
+				</div>
+				<div class="cryptoBox card mx-3 justify-content-md-center">
+					Other Crypto Monies Here.
+				</div>
 				<div class="cryptoBox card mx-3 justify-content-md-center">
 					Other Crypto Monies Here.
 				</div>
@@ -92,7 +99,7 @@
 			
 		</div>
 
-		<div id="footer" class="row justify-content-center">
+		<div id="footer" class="d-flex row justify-content-center mt-auto">
 			<div class="align-self-center">
 				© Consensys 2018
 			</div>
