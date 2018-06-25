@@ -4,6 +4,11 @@ html, body {
 	background-repeat: repeat;
 }
 
+#currency {
+	min-width: 45rem;
+	max-width: 80vw;
+}
+
 #header {
 	font-size: 1.225rem;
 	color: #337;
