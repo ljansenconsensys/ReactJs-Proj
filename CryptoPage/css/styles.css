@@ -4,9 +4,10 @@ html, body {
 	background-repeat: repeat;
 }
 
-#currency {
+#userdata {
 	min-width: 45rem;
 	max-width: 80vw;
+	padding: 10px;
 }
 
 #header {
