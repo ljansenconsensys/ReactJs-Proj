@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ether Wallet</title>
+
+	<link rel="icon" href="consensysico.png">
+
+	<!-- For Correct Special Character Display! -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Requirements for react JS to work here. -->
+	<script src="https://unpkg.com/react@15/dist/react.min.js"> </script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+	<!--Web3 JS Scripts-->
+	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+
+	<!--My JS Script-->
+	<script language="javascript" type="text/babel" src="ether.js"></script>
+
+	<!--BootStrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<!--JQuerry JS and Bootstrap Dependancies-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<!--My CSS Page-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<div class="container-fluid d-flex flex-column" style="height: 100%; display: table">
+
+	<div id="header" class="row justify-content-between">
+		<div id="logo" class="col-lg-6 justify-content-center">
+			<a href="index.html"><img src="img/consensyslogo.png"></a>
+		</div>
+		<div id="nav" class="d-flex col-lg-4 justify-content-around">
+			<div class="align-self-center">
+				<a href="https://new.consensys.net/">Visit Consensys</a>
+			</div>
+			<div id="signIn" class="align-self-center">
+				<button type="button" class="btn btn-primary">Sign In</button>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="body" class="d-flex flex-column align-self-stretch">
+		<div id="content" class="align-self-center h2">
+			Your Ethereum Wallet Data
+		</div>
+		<div class="d-flex flex-wrap mx-auto justify-content-md-center">
+			<img src="img/ether.png">
+			<div id="noMetaMask" style="display: none;">
+				You need MetaMask to display this page correctly.<br>
+				Download it <a href="https://metamask.io/">here</a>!
+			</div>
+		</div>
+		<div id="userdata" class="d-flex justify-content-md-center align-self-center">
+		</div>
+	</div>
+
+	<div id="footer" class="d-flex row justify-content-center mt-auto">
+		<div class="align-self-center">
+			© Consensys 2018
+		</div>
+	</div>
+	
+
+</div>
+
+</body>
+</html>

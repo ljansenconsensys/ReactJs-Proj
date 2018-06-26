@@ -4,6 +4,12 @@ html, body {
 	background-repeat: repeat;
 }
 
+#userdata {
+	min-width: 45rem;
+	max-width: 80vw;
+	padding: 10px;
+}
+
 #header {
 	font-size: 1.225rem;
 	color: #337;
