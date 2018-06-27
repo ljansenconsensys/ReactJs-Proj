@@ -133,6 +133,14 @@ function tellNotLoggedIn() {
 }
 
 
+function donateEther() {
+	console.log(document.getElementById('donation').value);
+	web3js.eth.sendTransaction({from: currentUser.address, to: "0xbaed36562fd33db715468916f624973331cfeb56", value: web3js.toWei(document.getElementById('donation').value, "ether")},
+		function(err, res) {
+
+		})
+}
+
 
 //Setup the web3js variable, used in all the code above
 var web3js;
